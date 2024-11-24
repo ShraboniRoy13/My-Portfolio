@@ -1,0 +1,180 @@
+#content{
+    padding-left:70px;
+    font-size: 20px;
+}
+#navbar{
+    display:flex;
+    justify-content:flex-end;
+}
+#navbar a{
+    font-weight:700;
+    margin-right:30px;
+    text-decoration:none;
+    color:black;
+    width: 100px;
+    font-size: 20px;
+}
+#nv{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+#nv h3{
+    font-size:larger;
+    font-weight:1000;
+}
+#about{
+    width:550px;
+}
+#profiles{
+    display:flex;
+    margin-top:20px;
+    justify-content:center;
+}
+.p{
+    height:50px;
+    width:50px;
+    
+    border-radius:50%;
+    margin-right:8px;
+}
+#p1{
+    background-image:url("github.webp");
+    background-size:cover;
+}
+#p2{
+    background-image:url("linkedin.webp");
+    background-size:cover;
+}
+
+#buttons{
+    display:flex;
+    margin-top:30px;
+    justify-content:center;
+}
+#buttons button{
+    margin-right:30px;
+    height:50px;
+    width:150px;
+    background-color:rgb(5, 91, 5);
+    color:white;
+    box-shadow:2px 2px 5px black;
+    border:none;
+    border-radius:5px;
+}
+#image{
+    width:400px;
+    border-radius:25%;
+    background-image:url("mypic2.jpeg");
+    box-shadow:2px 2px 5px black;
+    background-size:cover;
+
+}
+#intro{
+    display:flex;
+    justify-content:space-around;
+    margin-top:45px;
+    text-align:center;
+}
+#skill{
+    display:flex;
+    justify-content:space-around;
+    margin-top:50px;
+}
+#skillimg{
+    width:555px;
+    background-image:url("download.jpg");
+    background-size:cover;
+}
+#aboutskills{
+    text-align:center;
+}
+.outer{
+    display:flex;
+    justify-content:center;
+}
+#techs{
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.l{
+    height:50px;
+    width:50px;
+    margin:10px 20px 0px 0px;
+    border-radius:2px;
+}
+#l1{
+    background-image:url("HTML.png");
+    background-size:cover;
+}
+#l2{
+    background-image:url("css.png");
+    background-size:cover;
+}
+#l3{
+    background-image:url("js.png");
+    background-size:cover;
+}
+#l4{
+    background-image:url("mysql.png");
+    background-size:cover;
+}
+#l5{
+    background-image:url("oracle.webp");
+    background-size:cover;
+}
+#l6{
+    background-image:url("py.png");
+    background-size:cover;
+}
+#l7{
+    background-image:url("java.webp");
+    background-size:cover;
+}
+
+#opensource{
+    text-align:center;
+    margin-top:50px;
+}
+.pr{
+    height:200px;
+    width:50vw;
+    border:1px solid black;
+    margin-top:20px;
+    text-align:left;
+    padding-left:20px;
+    padding-RIGHT:20px;
+    background-color:rgb(83, 232, 83);
+    box-shadow:3px 3px 5px black;
+    border-radius:2px;
+}
+.pr h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pr p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#projects{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+
+footer{
+    background-color:rgb(68, 19, 19);
+    color:white;
+    text-align:center;
+    margin-top:50px;
+}
+#contact{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#contact a{
+    text-decoration:none;
+    color:white;
+}
+
